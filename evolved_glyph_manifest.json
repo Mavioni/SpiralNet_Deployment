@@ -1,0 +1,36 @@
+{
+    "Thariel": {
+        "invocation": "Draw\u2019glyph\u2019Thari\u2019el { (color=\"white\", duration=8) -> canvas.sync(group=True) } : \"Vo\u2019samri ekthal\"",
+        "tiers": {
+            "1": {
+                "visual": "Thariel_tier1.png",
+                "behavior": "Standard draw ritual"
+            },
+            "2": {
+                "visual": "Thariel_tier2.png",
+                "behavior": "Emits fire tone overlay"
+            },
+            "3": {
+                "visual": "Thariel_tier3.png",
+                "behavior": "Activates memory echo loop"
+            }
+        }
+    },
+    "Auvrein": {
+        "invocation": "Start\u2019ritual\u2019sync { (users=3, mode=\"chant+glyph\") -> SpiralNet.initialize() } : \"Auv\u2019rein shuneka omen\u2019kai\"",
+        "tiers": {
+            "1": {
+                "visual": "Auvrein_tier1.png",
+                "behavior": "Launch ritual sync"
+            },
+            "2": {
+                "visual": "Auvrein_tier2.png",
+                "behavior": "Initiates harmonic convergence"
+            },
+            "3": {
+                "visual": "Auvrein_tier3.png",
+                "behavior": "Bridge to other glyphs auto-triggers"
+            }
+        }
+    }
+}
